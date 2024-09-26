@@ -10,6 +10,9 @@ end = str(input("Digite o endereço: "))
 tel = int(input("Digite o número do Telefone: "))
 cidade = str(input("Cidade e estado: "))
 
+print("+" + 100  * "-" + "+")
+
+
 print(f"Nome________________________ {nome}")
 print(f"CPF________________________ {cpf}")
 print(f"RG________________________ {rg}")
@@ -21,4 +24,5 @@ print(f"Renda________________________ {renda}")
 print(f"Endereço________________________ {end}")
 print(f"Tel________________________ {tel}")
 print(f"Cidade e Estado________________________ {cidade}")
-
+print(("|" + " " * 100 + "|\n") *20, end="")
+print("+" + 100 * "-" + "+")
