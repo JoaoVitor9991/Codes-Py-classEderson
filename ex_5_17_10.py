@@ -22,7 +22,7 @@ while True:
         break
 while True:    
     sexo = str(input("Digite o sexo F, M ou O: ").upper())
-    if sexo == "f" or sexo == "m" or sexo == "o":
+    if sexo == "F" or sexo == "M" or sexo == "O":
         print("Sexo válido.")
         break
     else:
@@ -30,7 +30,7 @@ while True:
         
 
 while True:
-    civil = str(input("Digite seu estado Civil: S, C, V ou D").upper())
+    civil = str(input("Digite seu estado Civil: S, C, V ou D: ").upper())
     if civil == "S" or civil == "C" or civil == "V" or civil == "D":
         print("Estado civil válido. ")
         break
