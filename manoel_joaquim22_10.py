@@ -18,7 +18,7 @@ while True:
                 
             else:
                 troco = pagamento - total_compra
-                print(troco)
+                print("troco de: ", troco)
                 break
     elif cliente==0:
         break
