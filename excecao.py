@@ -1,0 +1,1 @@
+a = int(input("Digite uma palavra: "))
