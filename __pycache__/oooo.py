@@ -1,8 +1,9 @@
-from colorama import Fore,  Style, init, Back
-init()
-print(Fore.RED + "Vermelho")
-print(Fore.GREEN+ "GREEN")
-print(Fore.BLUE+ "BLUE")
-print(Back.YELLOW+ "TEXTO COM FUNDO AMARELO")
+from colorama import Fore, init, Back
 
-print(Style.RESET_ALL + "Texto na cor padrão")
+
+init()
+
+cores = [Fore.RED, Fore.GREEN, Fore.YELLOW, Fore.BLUE, Fore.CYAN, Fore.MAGENTA, Fore.WHITE, Fore.BLACK +Back.WHITE]
+
+for cor in cores:
+    print(cor + "Texto colorido com Colorama!")
