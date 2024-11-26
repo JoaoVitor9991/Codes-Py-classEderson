@@ -1,24 +1,24 @@
 class Retangulo:
     def __init__(self, lado_a, lado_b):
-        """Inicializa os lados do retângulo"""
+        
         self.lado_a = lado_a
         self.lado_b = lado_b
 
     def mudar_valor_lados(self, novo_lado_a, novo_lado_b):
-        """Atualiza os valores dos lados"""
+        
         self.lado_a = novo_lado_a
         self.lado_b = novo_lado_b
 
     def retornar_valor_lados(self):
-        """Retorna os valores dos lados"""
+        
         return self.lado_a, self.lado_b
 
     def calcular_area(self):
-        """Calcula e retorna a área do retângulo"""
+        
         return self.lado_a * self.lado_b
 
     def calcular_perimetro(self):
-        """Calcula e retorna o perímetro do retângulo"""
+        
         return 2 * (self.lado_a + self.lado_b)
 
 
