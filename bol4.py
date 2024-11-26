@@ -9,4 +9,7 @@ class Bola:
         return self.cor
     
 bola = Bola ("Vermelha", 30, "couro")
+print(bola.mostra_cor())
+bola.troca_cor("Azul")
+print(bola.mostra_cor())
     

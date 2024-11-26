@@ -1,6 +1,0 @@
-import turtle 
-turtle.setup(500, 500)
-
-turtle.pencolor("blue")
-turtle.forward(100)
-turtle.done()
